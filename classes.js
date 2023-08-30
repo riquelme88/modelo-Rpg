@@ -73,18 +73,18 @@ class stage{
     }
     update(){
         //fighter1
-        this.fighter1El.querySelector('.name').innerHTML = `<div>${this.fighter1.name} ${this.fighter1.life.toFixed(2)}-HP</div>`
+        this.fighter1El.querySelector('.name').innerHTML = `<div>${this.fighter1.name} ${this.fighter1.life.toFixed(2)}HP</div>`
         this.fighter1El.querySelector('.level').innerHTML = `Level : ${this.fighter1.level}`
         let pct1 = (this.fighter1.life/ this.fighter1.max_life) *100;
         this.fighter1El.querySelector('.bar .bar-life').style.width = `${pct1}%`
         //fighter2
-        this.fighter2El.querySelector('.name').innerHTML = `<div>${this.fighter2.name} ${this.fighter2.life.toFixed(2)}-HP</div>`
+        this.fighter2El.querySelector('.name').innerHTML = `<div>${this.fighter2.name} ${this.fighter2.life.toFixed(2)}HP</div>`
         this.fighter2El.querySelector('.level').innerHTML = `Level : ${this.fighter2.level}`
         let pct2 = (this.fighter2.life/ this.fighter2.max_life) *100;
         this.fighter2El.querySelector('.bar .bar-life').style.width = `${pct2}%`
         //fighter3
         //fighter2
-        this.fighter3El.querySelector('.name').innerHTML = `<div>${this.fighter3.name} ${this.fighter3.life.toFixed(2)}-HP</div>`
+        this.fighter3El.querySelector('.name').innerHTML = `<div>${this.fighter3.name} ${this.fighter3.life.toFixed(2)}HP</div>`
         this.fighter3El.querySelector('.level').innerHTML = `Level : ${this.fighter3.level}`
         let pct3 = (this.fighter3.life/ this.fighter3.max_life) *100;
         this.fighter3El.querySelector('.bar .bar-life').style.width = `${pct3}%`

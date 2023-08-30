@@ -90,3 +90,48 @@ h1{
     background-color: rgb(0, 150, 231);
 }
 
+@media screen and (max-width: 450px) {
+    .game{
+        max-width: 425px;
+        overflow: hidden;
+    }
+
+    .bar{
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .name{
+        font-size: 13px;
+        margin-top: 10px;
+        font-weight: 700;
+    }
+
+    #hero,#monster,#mage,#mini-monster{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        
+    }
+
+    #hero{
+        margin-left: 10px;
+    }
+
+    .attack{
+        padding: 5px;
+        width: 100px;
+       
+    }
+
+    .cure{
+        padding: 5px;
+        width: 100px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+}
+
